@@ -1,6 +1,6 @@
-#
-# ~/.bashrc
-#
+#---------------------
+#JustBlooGuy's bashrc
+#---------------------
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
@@ -34,5 +34,3 @@ alias cdf='cd $(find . -maxdepth 1 -type d | fzf)'
 
 ./.figlet.sh
 neofetch
-#colorscript -e 28
-
