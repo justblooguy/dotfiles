@@ -1,5 +1,5 @@
 #--JustBlooGuy's---
-# MacOS Help Guide
+# Color Reference
 #----07/3/2023-----
 
 export red="\[\033[1;31m\]"
