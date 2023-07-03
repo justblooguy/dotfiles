@@ -1,0 +1,17 @@
+#--JustBlooGuy's---
+# MacOS Help Guide
+#----07/3/2023-----
+
+The Alacritty config files are pulled from Archcraft. They have a very simple and straightforward config. However out of the box it will not work with MacOS. The following changes must be made to avoid errors.
+
+STEP 1: Change fonts
+
+Within the fonts.yml file you must either change the font to something that is already installed in the system or install JetBrains Mono. The fallback font will be Menlo.
+
+STEP 2: Comment out TERM variable
+
+The TERM variable does not seem to be compatible with MacOS. Therefore commenting out the variable within the alacritty.yml will fix the database inaccessible message and restore the functionality of clear command.
+
+STEP 3: Change dimensions
+
+The default dimensions are perfect on Archcraft. However, on MacOS, it is cartoonishly small. Therefore, change the dimenshions to more appropiate values in alacritty.yml. If you are unsure about the values, comment out dimensions, columns, and lines. Allowing alacritty to set the defaults.
