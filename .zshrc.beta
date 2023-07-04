@@ -1,0 +1,11 @@
+#--JustBlooGuy's---
+# .zshrc beta
+#----07/4/2023-----
+
+#This is a work in progress .zshrc file make modifications as needed.
+#%F(Color): set color
+#%BText%b: Set bold
+#%n: set username
+#%m: set hostname
+
+PROMPT='%B%F{#fa8072}%n%F{green}@%m%b %F{cyan}%1~ %F{yellow}> %F{reset}'
