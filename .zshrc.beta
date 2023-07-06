@@ -3,9 +3,27 @@
 #----07/4/2023-----
 
 #This is a work in progress .zshrc file make modifications as needed.
+
+# Save zsh command history
+HISTFILE=~/.zsh_history
+HISTSIZE=1000
+SAVEHIST=1000
+setopt appendhistory
+
+
 #%F(Color): set color
 #%BText%b: Set bold
 #%n: set username
 #%m: set hostname
+
+#Default aliases
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+
+#Custom aliases
+alias ll='ls -al'
+alias la='ls -a'
+alias cleanup='sudo pacman -Qtdq | sudo pacman -Rns -'
+alias tux='fortune -s | cowsay -f tux'
 
 PROMPT='%B%F{#fa8072}%n%F{green}@%m%b %F{cyan}%1~ %F{yellow}> %F{reset}'
