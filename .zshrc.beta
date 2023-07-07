@@ -8,14 +8,15 @@
 HISTFILE=~/.zsh_history
 HISTSIZE=1000
 SAVEHIST=1000
-setopt HIST_IGNORE_ALL_DUPS
+setopt HIST_IGNORE_DUPS
 setopt appendhistory
-
 
 #%F(Color): set color
 #%BText%b: Set bold
 #%n: set username
 #%m: set hostname
+
+PROMPT='%B%F{#fa8072}%n%F{green}@%m%b %F{cyan}%1~ %F{yellow}> %F{reset}'
 
 #Default aliases
 alias ls='ls --color=auto'
@@ -25,6 +26,4 @@ alias grep='grep --color=auto'
 alias ll='ls -al'
 alias la='ls -a'
 alias cleanup='sudo pacman -Qtdq | sudo pacman -Rns -'
-alias tux='fortune -s | cowsay -f tux'
-
-PROMPT='%B%F{#fa8072}%n%F{green}@%m%b %F{cyan}%1~ %F{yellow}> %F{reset}'
+alias tux='./.cas.sh tux'
