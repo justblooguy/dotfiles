@@ -33,6 +33,7 @@ alias cmatrix='cmatrix -C red'
 alias discord='flatpak run com.discordapp.Discord &'
 alias vimf='vim $(fzf)'
 alias cdf='cd $(find . -maxdepth 1 -type d | fzf)'
+alias mrefresh="sudo reflector --country 'United States' --latest 20 --protocol https --sort rate --save /etc/pacman.d/mirrorlist"
 
 ./.figlet.sh
 neofetch
