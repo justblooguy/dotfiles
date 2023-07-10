@@ -13,12 +13,12 @@ export FZF_DEFAULT_COMMAND='find .'
 source .colors
 LS_COLORS=$LS_COLORS:'di=1;31:' ; export LS_COLORS
 
+#ignore upper and lowercase when TAB completion
+bind "set completion-ignore-case on"
+
 #Prompt settings
 #PS1='[\u@\h \W]\$ '
 PS1="${red}\u@\h ${grey}\W ${red}\$ ${reset}"
-
-#ignore upper and lowercase when TAB completion
-bind "set completion-ignore-case on"
 
 #Default aliases
 alias ls='ls --color=auto'

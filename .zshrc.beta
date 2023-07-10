@@ -4,6 +4,10 @@
 
 #This is a work in progress .zshrc file make modifications as needed.
 
+#ignore lowercase when TAB completion
+autoload -Uz compinit && compinit
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+
 # Save zsh command history
 HISTFILE=~/.zsh_history
 HISTSIZE=1000
