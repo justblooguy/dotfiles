@@ -1,6 +1,6 @@
-#---------------------
-#JustBlooGuy's bashrc
-#---------------------
+#--JustBlooGuy's---
+#     .bashrc
+#----07/4/2023-----
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
