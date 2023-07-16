@@ -145,7 +145,7 @@
         <panels>no</panels>
         <desktop>no</desktop>
         <linear>no</linear>
-        <interactive>yes</interactive>
+        <interactive>no</interactive>
         <finalactions>
           <action name="Focus"/>
           <action name="Raise"/>
@@ -226,7 +226,7 @@
       </action>
     </keybind>
     <!-- Action : ToggleShowDesktop -->
-    <keybind key="A-d">
+    <keybind key="A-w">
       <action name="ToggleShowDesktop"/>
     </keybind>
     <!-- Action : Session -->
@@ -624,12 +624,12 @@
       </action>
     </keybind>
     <!-- Volume -->
-    <keybind key="XF86AudioRaiseVolume">
+    <keybind key="A-o">
       <action name="Execute">
         <command>ob-volume --inc</command>
       </action>
     </keybind>
-    <keybind key="XF86AudioLowerVolume">
+    <keybind key="A-i">
       <action name="Execute">
         <command>ob-volume --dec</command>
       </action>
@@ -688,7 +688,7 @@
       </action>
     </keybind>
     <!-- Rofi -->
-    <keybind key="A-F1">
+    <keybind key="A-d">
       <action name="Execute">
         <command>launcher</command>
       </action>
