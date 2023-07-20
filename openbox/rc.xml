@@ -393,14 +393,14 @@
       <action name="MoveToEdgeSouth"/>
     </keybind>
     <!-- Top right-->
-    <keybind key="W-k">
+    <keybind key="C-S-3">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
         <x>-0</x>
         <y>0</y>
       </action>
     </keybind>
-    <keybind key="W-S-k">
+    <keybind key="C-S-7">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
         <x>-0</x>
@@ -410,14 +410,14 @@
       </action>
     </keybind>
     <!-- Top left-->
-    <keybind key="W-h">
+    <keybind key="C-S-1">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
         <x>0</x>
         <y>0</y>
       </action>
     </keybind>
-    <keybind key="W-S-h">
+    <keybind key="C-S-5">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
         <x>0</x>
@@ -427,14 +427,14 @@
       </action>
     </keybind>
     <!-- Bottom left-->
-    <keybind key="W-j">
+    <keybind key="C-S-2">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
         <x>0</x>
         <y>-0</y>
       </action>
     </keybind>
-    <keybind key="W-S-j">
+    <keybind key="C-S-6">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
         <x>0</x>
@@ -444,14 +444,14 @@
       </action>
     </keybind>
     <!-- Bottom right-->
-    <keybind key="W-l">
+    <keybind key="C-S-4">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
         <x>-0</x>
         <y>-0</y>
       </action>
     </keybind>
-    <keybind key="W-S-l">
+    <keybind key="C-S-8">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
         <x>-0</x>
@@ -461,7 +461,7 @@
       </action>
     </keybind>
     <!-- Windows Tiling -->
-    <keybind key="W-KP_1">
+    <keybind key="A-j">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
         <x>0</x>
@@ -470,7 +470,7 @@
         <height>50%</height>
       </action>
     </keybind>
-    <keybind key="W-KP_2">
+    <keybind key="A-S-j">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
         <x>0</x>
@@ -479,7 +479,7 @@
         <height>50%</height>
       </action>
     </keybind>
-    <keybind key="W-KP_3">
+    <keybind key="A-l">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
         <x>-0</x>
@@ -488,7 +488,7 @@
         <height>50%</height>
       </action>
     </keybind>
-    <keybind key="W-KP_4">
+    <keybind key="A-S-h">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
         <x>0</x>
@@ -497,10 +497,7 @@
         <height>100%</height>
       </action>
     </keybind>
-    <keybind key="W-KP_5">
-      <action name="MaximizeFull"/>
-    </keybind>
-    <keybind key="W-KP_6">
+    <keybind key="A-S-l">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
         <x>-0</x>
@@ -509,7 +506,7 @@
         <height>100%</height>
       </action>
     </keybind>
-    <keybind key="W-KP_7">
+    <keybind key="A-h">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
         <x>0</x>
@@ -518,7 +515,7 @@
         <height>50%</height>
       </action>
     </keybind>
-    <keybind key="W-KP_8">
+    <keybind key="A-S-k">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
         <x>0</x>
@@ -527,7 +524,7 @@
         <height>50%</height>
       </action>
     </keybind>
-    <keybind key="W-KP_9">
+    <keybind key="A-k">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
         <x>-0</x>
