@@ -32,6 +32,7 @@ alias la='ls -a'
 alias cleanup='sudo pacman -Qtdq | sudo pacman -Rns -'
 alias tux='./.cas.sh tux'
 alias dragon='./.cas.sh dragon'
+alias nano='vim -y'
 alias mrefresh="sudo reflector --verbose --country 'US' -l 5 --sort rate --save /etc/pacman.d/mirrorlist"
 
 neofetch

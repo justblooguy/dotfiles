@@ -18,6 +18,7 @@ LIGHT_CYAN="\e[96"
 LIGHT_WHITE="\e[97"
 STOP="\e[0m"
 
+#make sure the figlet package is installed.
 printf "${RED}"
 figlet "Arch Linux"
 printf "${STOP}"
