@@ -2,6 +2,9 @@
 "      .vimrc
 " ----07/9/2023-----
 
+
+" If on MacOs, make sure to reinstall vim using homebrew. Default vim found on
+" macos will not source the vimruntime. 
 source $VIMRUNTIME/vimrc_example.vim
 
 set undodir=/home/blooguy/.vim/.vimundo
