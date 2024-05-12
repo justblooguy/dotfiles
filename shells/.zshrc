@@ -37,5 +37,6 @@ alias volu='pamixer -i 5'
 alias vold='pamixer -d 5'
 alias vol='echo "Current volume: "$(pamixer --get-volume)""'
 alias mrefresh="sudo reflector --verbose --country 'US' -l 5 --sort rate --save /etc/pacman.d/mirrorlist"
+alias neofetch='fastfetch'
 
-neofetch
+fastfetch

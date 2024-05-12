@@ -33,6 +33,7 @@ alias cmatrix='cmatrix -C red'
 alias discord='flatpak run com.discordapp.Discord &'
 alias nano='vim -y'
 alias mrefresh="sudo reflector --country 'United States' --latest 20 --protocol https --sort rate --save /etc/pacman.d/mirrorlist"
+alias neofetch ='fastfetch'
 
 ./.figlet.sh
-neofetch
+fastfetch
